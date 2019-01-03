@@ -1,7 +1,9 @@
 #include <stdio.h>
 #include "calc.h"
+#include "calc2A.h"
+#include "calc2B.h"
   
-int main(){
+int main(void){
    double d1,d2,d3;
    double a = 1.2,b = 3.4,c = 2.7;
    d1 = avg(a,b);
